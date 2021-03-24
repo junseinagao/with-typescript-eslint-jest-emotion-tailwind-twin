@@ -30,7 +30,12 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <title>
+            Nextjs App with TypeScript, ESlint, Jest, Emotion, Tailwind and Twin
+          </title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <body>
           <Main />
           <NextScript />
