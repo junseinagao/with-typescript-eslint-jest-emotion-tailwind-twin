@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "jsxImportSource": "@emotion/react"
   },
-  "files": ["twin.d.ts"],
+  "files": ["src/types/twin.d.ts"],
   "exclude": ["node_modules", ".next", "out"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"]
 }
