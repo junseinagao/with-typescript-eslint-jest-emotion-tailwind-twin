@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { css } from 'twin.macro'
+import tw, { css } from 'twin.macro'
 
 export const Index = () => (
   <div css={container}>
@@ -13,6 +13,7 @@ export const Index = () => (
       </p>
 
       <button
+        css={testButton}
         onClick={() => {
           window.alert(
             'With TypeScript, ESlint, Jest, Emotion, Tailwind and Twin'
@@ -58,7 +59,7 @@ export const Index = () => (
         rel="noopener noreferrer"
         css={a}
       >
-        <span>Powered by</span>
+        <span tw="mr-2">Powered by</span>
         <Image src="/vercel.svg" alt="Vercel Logo" height={'32'} width={'64'} />
       </a>
     </footer>
@@ -100,6 +101,11 @@ const footer = css`
     justify-content: center;
     align-items: center;
   }
+`
+
+const testButton = css`
+  ${tw`mt-8 bg-blue-500 text-white rounded px-2 py-1`}
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 `
 
 const a = css`
