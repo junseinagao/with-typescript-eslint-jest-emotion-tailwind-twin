@@ -1,6 +1,6 @@
 {
-  "name": "with-typescript-eslint-jest",
-  "author": "@erikdstock",
+  "name": "with-typescript-eslint-jest-emotion-tailwind-twin",
+  "author": "junseinagao",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
