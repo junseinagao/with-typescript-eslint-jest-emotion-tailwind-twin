@@ -1,14 +1,22 @@
+import Head from 'next/head'
 import { GlobalStyles, css } from 'twin.macro'
 import { Global } from '@emotion/react'
 import { AppProps } from 'next/app'
 
 const App = ({ Component, pageProps }: AppProps) => (
-  <div>
-    <Global styles={globalStyles} />
+  <>
+    <Head>
+      <title>
+        Nextjs App with TypeScript, ESlint, Jest, Emotion, Tailwind and Twin
+      </title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
     <GlobalStyles />
+    <Global styles={globalStyles} />
     <Component {...pageProps} />
-  </div>
+  </>
 )
+
 const globalStyles = css`
   html,
   body {
@@ -22,4 +30,5 @@ const globalStyles = css`
     box-sizing: border-box;
   }
 `
+
 export default App
