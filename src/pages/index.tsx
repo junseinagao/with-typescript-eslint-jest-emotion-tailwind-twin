@@ -14,7 +14,9 @@ export const Index = () => (
 
       <button
         onClick={() => {
-          window.alert('With typescript and Jest')
+          window.alert(
+            'With TypeScript, ESlint, Jest, Emotion, Tailwind and Twin'
+          )
         }}
       >
         Test Button
@@ -56,7 +58,7 @@ export const Index = () => (
         rel="noopener noreferrer"
         css={a}
       >
-        Powered by{' '}
+        <span>Powered by</span>
         <Image src="/vercel.svg" alt="Vercel Logo" height={'32'} width={'64'} />
       </a>
     </footer>
