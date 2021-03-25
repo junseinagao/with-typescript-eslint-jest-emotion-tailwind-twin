@@ -26,7 +26,9 @@ exports[`Home page matches snapshot 1`] = `
           pages/index.tsx
         </code>
       </p>
-      <button>
+      <button
+        class="css-1qntr4c-testButton"
+      >
         Test Button
       </button>
       <div
@@ -87,7 +89,11 @@ exports[`Home page matches snapshot 1`] = `
         rel="noopener noreferrer"
         target="_blank"
       >
-        Powered by 
+        <span
+          class="css-1oywshl-Index"
+        >
+          Powered by
+        </span>
         <div
           style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
         >
