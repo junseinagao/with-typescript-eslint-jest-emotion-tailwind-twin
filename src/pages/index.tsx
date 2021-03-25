@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export const Home = (): JSX.Element => (
+export const Index = () => (
   <div className="container">
     <section>
       <h1 className="title">
@@ -188,4 +188,4 @@ export const Home = (): JSX.Element => (
   </div>
 )
 
-export default Home
+export default Index
