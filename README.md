@@ -13,4 +13,4 @@ Bootstrap a developer-friendly NextJS app configured with:
 
 ## Introduction
 
-There is the [article](https://zenn.dev/) wrriten by Japanese.
+There is the [article](https://zenn.dev/junseinagao/articles/eb1d550faeae62) wrriten by Japanese.
